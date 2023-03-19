@@ -1,0 +1,35 @@
+@media (max-width:991px) {
+    body.poster {
+        margin-top: 60vh;
+    }
+}
+
+body.poster {
+    background-attachment: fixed;
+}
+
+.top-5 {
+    top: 5px;
+}
+.profile-picture {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.profile-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  line-height: 0.5;
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+.profile-location {
+  font-size: 18px;
+  color: #666;
+  line-height: 1;
+    padding-top: 0px;
+  padding-bottom: px;
+}
