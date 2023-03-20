@@ -29,7 +29,14 @@ line-height: 0.5;
 .profile-location {
   font-size: 18px;
   color: #666;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.profile-location-2 {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+    line-height: 1;
 }
 
 /* Style for smaller screens */
@@ -41,9 +48,15 @@ line-height: 0.5;
 
   .profile-location {
     font-size: 8px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
       line-height: 0.5;
   }
+    .profile-location-2 {
+    font-size: 8px;
+        margin-bottom: 10px;
+    margin-bottom: 5px;
+  }
+
 
   .profile-picture {
     width: 100px;
