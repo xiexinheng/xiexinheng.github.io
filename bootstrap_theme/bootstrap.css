@@ -489,7 +489,7 @@ progress {
   margin-right: auto;
   margin-left: auto; }
 
-@media (min-width: 576px) {
+@media (min-width : 480px ){
   .container, .container-sm {
     max-width: 540px; } }
 
@@ -689,7 +689,7 @@ progress {
 .gy-5 {
   --bs-gutter-y: 3rem; }
 
-@media (min-width: 576px) {
+@media (min-width : 480px ){
   .col-sm {
     flex: 1 0 0%; }
   .row-cols-sm-auto > * {
@@ -1453,7 +1453,7 @@ progress {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch; }
 
-@media (max-width: 575.98px) {
+@media (max-width : 522px ){
   .table-responsive-sm {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch; } }
@@ -2612,7 +2612,7 @@ textarea.form-control-lg {
     right: 0 /* rtl:ignore */;
     left: auto /* rtl:ignore */; }
 
-@media (min-width: 576px) {
+@media (min-width : 480px ){
   .dropdown-menu-sm-start {
     --bs-position: start; }
     .dropdown-menu-sm-start[data-bs-popper] {
@@ -3053,7 +3053,7 @@ textarea.form-control-lg {
   max-height: var(--bs-scroll-height, 75vh);
   overflow-y: auto; }
 
-@media (min-width: 576px) {
+@media (min-width : 480px ){
   .navbar-expand-sm {
     flex-wrap: nowrap;
     justify-content: flex-start; }
@@ -3326,7 +3326,7 @@ textarea.form-control-lg {
 .card-group > .card {
   margin-bottom: 15px; }
 
-@media (min-width: 576px) {
+@media (min-width : 480px ){
   .card-group {
     display: flex;
     flex-flow: row wrap; }
@@ -3743,7 +3743,7 @@ textarea.form-control-lg {
       margin-left: -1px;
       border-left-width: 1px; }
 
-@media (min-width: 576px) {
+@media (min-width : 480px ){
   .list-group-horizontal-sm {
     flex-direction: row; }
     .list-group-horizontal-sm > .list-group-item:first-child {
@@ -4096,7 +4096,7 @@ textarea.form-control-lg {
   .modal-footer > * {
     margin: 0.25rem; }
 
-@media (min-width: 576px) {
+@media (min-width : 480px ){
   .modal-dialog {
     max-width: 500px;
     margin: 1.75rem auto; }
@@ -4134,7 +4134,7 @@ textarea.form-control-lg {
   .modal-fullscreen .modal-footer {
     border-radius: 0; }
 
-@media (max-width: 575.98px) {
+@media (max-width : 522px ){
   .modal-fullscreen-sm-down {
     width: 100vw;
     max-width: none;
@@ -4796,7 +4796,7 @@ textarea.form-control-lg {
   top: 0;
   z-index: 1020; }
 
-@media (min-width: 576px) {
+@media (min-width : 480px ){
   .sticky-sm-top {
     position: sticky;
     top: 0;
@@ -5903,7 +5903,7 @@ textarea.form-control-lg {
 .invisible {
   visibility: hidden !important; }
 
-@media (min-width: 576px) {
+@media (min-width : 480px ){
   .float-sm-start {
     float: left !important; }
   .float-sm-end {

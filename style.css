@@ -17,19 +17,44 @@ body.poster {
     height: 150px;
 }
 
+/* Default style for profile names and locations */
 .profile-name {
   font-size: 24px;
   font-weight: bold;
   color: #333;
-  line-height: 0.5;
-  padding-top: 20px;
-  padding-bottom: 0px;
+line-height: 0.5;
+  margin-top: 10px;
 }
 
 .profile-location {
   font-size: 18px;
   color: #666;
-  line-height: 1;
-    padding-top: 0px;
-  padding-bottom: px;
+  margin-bottom: 10px;
+}
+
+/* Style for smaller screens */
+@media (max-width: 767px) {
+  .profile-name {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  .profile-location {
+    font-size: 8px;
+    margin-bottom: 5px;
+      line-height: 0.5;
+  }
+
+  .profile-picture {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+/* Style for larger screens */
+@media (min-width: 768px) {
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+  }
 }
