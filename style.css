@@ -64,6 +64,16 @@ line-height: 0.5;
   }
 }
 
+.profile-name a {
+  color: #0F09A1;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.profile-name a:hover {
+  color: #4BD1A0;
+}
+
 /* Style for larger screens */
 @media (min-width: 768px) {
   .profile-picture {
