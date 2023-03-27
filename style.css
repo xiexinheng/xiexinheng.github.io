@@ -1,8 +1,18 @@
-@media (max-width : 991px ){
+.container-1 {
+  font-size: 18pt;
+  color: #0F09A1;
+  text-align: justify;
+}
+
+@media (max-width : 767px ){
     body.poster {
         margin-top: 60vh;
     }
+    .container-1 {
+    font-size: 8pt;
+  }
 }
+
 
 body.poster {
     background-attachment: fixed;
@@ -12,7 +22,6 @@ body.poster {
     top: 5px;
 }
 .profile-picture {
-    border-radius: 50%;
     width: 150px;
     height: 150px;
 }
@@ -22,7 +31,6 @@ body.poster {
   font-size: 24px;
   font-weight: bold;
   color: #333;
-line-height: 0.5;
   margin-top: 10px;
 }
 
