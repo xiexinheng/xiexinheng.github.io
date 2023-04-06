@@ -145,7 +145,7 @@ body.poster {
 .event-details {
   display: flex;
   flex-direction: column;
-  margin: 50px;
+  margin: 20px;
 }
 
 .event-title {
@@ -315,3 +315,60 @@ body.poster {
     align-items: center;
   }
 }
+
+p.index_big_time {
+    font-size: 25px;
+    margin-top: 30px ;
+    margin-bottom: 30px ;
+}
+div.nextmeeting_size{
+    width:750px;
+    height:300px;
+}
+
+@media (max-width: 1400px) {
+    div.nextmeeting_size{
+    width:600px;
+}
+}
+
+@media (max-width: 1062px) {
+    p.index_big_time {
+    font-size: 22px ;
+    margin-top: 20px ;
+    margin-bottom: 20px ;
+}
+    div.nextmeeting_size{
+    width:450px;
+}
+}
+
+@media (max-width: 768px) {
+    p.index_big_time {
+    font-size: 18px ;
+    margin-top: 15px ;
+    margin-bottom: 15px ;
+}
+     div.nextmeeting_size{
+    width:450px;
+}
+}
+
+@media (max-width: 420px) {
+    p.index_big_time {
+    font-size: 18px ;
+    margin-top: 15px ;
+    margin-bottom: 15px ;
+}
+     div.nextmeeting_size{
+    width:280px;
+     height:200px;
+}
+    .flex-column .text-center {
+            margin: 0px ;
+  }
+    .btn-register-talk {
+    display: none;
+  }          
+}
+

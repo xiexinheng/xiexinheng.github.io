@@ -44,6 +44,7 @@
     <div class="event-info">
       <ul class="speaker-info">
           <li class="event-title" ><strong>Contact Us</strong></li>
+                    <li class="speaker-info-item">Email address: windsmath-seminar@outlook.com&nbsp;</li>
           <li class="speaker-info-item"><a href="https://www.linkedin.com/groups/12789710/"  style="color: black" >Linkedin Group</a></li>
         <li class="speaker-info-item"><a href="https://twitter.com/windsmath" style="color: black">Twitter</a></li>
          <div class="d-flex align-items-center">
@@ -51,7 +52,7 @@
   <img src=".\img\weixin_sq_s.jpg" id="small-image" class="hoverable">
   <img src=".\img\weixin_sq_test.jpg" id="large-image" class="hidden">
 </div>
-          <li class="speaker-info-item">Email address: windsmath-seminar@outlook.com&nbsp;</li>
+
       </ul>
          <div class="d-inline-flex flex-wrap gap-2 justify-content-center py-1"><a href="mailto:windsmath-seminar@outlook.com" class="btn btn-primary pe-4 ps-4">Email Now&nbsp;</a>
          </div> 
@@ -119,15 +120,15 @@
     var nextSection = document.getElementById("Join-section");
     nextSection.scrollIntoView({ behavior: "smooth" });
   }
-            const smallImage = document.getElementById('small-image');
+const smallImage = document.getElementById('small-image');
 const largeImage = document.getElementById('large-image');
 
-smallImage.addEventListener('mouseover', function() {
-  largeImage.classList.remove('hidden');
-});
-
-smallImage.addEventListener('mouseout', function() {
-  largeImage.classList.add('hidden');
+smallImage.addEventListener('click', function() {
+  if (largeImage.classList.contains('hidden')) {
+    largeImage.classList.remove('hidden');
+  } else {
+    largeImage.classList.add('hidden');
+  }
 });
 </script>
         
