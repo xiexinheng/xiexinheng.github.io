@@ -567,7 +567,7 @@ pre {
     /* line 6, node_modules/bootstrap/scss/_grid.scss */
     .container {
       max-width: 960px; } }
-  @media (min-width : 1062px ){
+  @media (min-width : 1209px ){
     /* line 6, node_modules/bootstrap/scss/_grid.scss */
     .container {
       max-width: 1040px; } }
@@ -1448,7 +1448,7 @@ pre {
   .offset-lg-11 {
     margin-left: 91.66667%; } }
 
-@media (min-width : 1062px ){
+@media (min-width : 1209px ){
   /* line 32, node_modules/bootstrap/scss/mixins/_grid-framework.scss */
   .col-xl {
     -ms-flex-preferred-size: 0;
@@ -4794,7 +4794,7 @@ input[type="button"].btn-block {
     padding-right: 0;
     padding-left: 0; } }
 
-@media (min-width : 1062px ){
+@media (min-width : 1209px ){
   /* line 145, node_modules/bootstrap/scss/_navbar.scss */
   .navbar-expand-xl {
     -webkit-box-orient: horizontal;
@@ -7318,7 +7318,7 @@ button.bg-gray200:focus {
     display: -ms-inline-flexbox !important;
     display: inline-flex !important; } }
 
-@media (min-width : 1062px ){
+@media (min-width : 1209px ){
   /* line 11, node_modules/bootstrap/scss/utilities/_display.scss */
   .d-xl-none {
     display: none !important; }
@@ -8089,7 +8089,7 @@ button.bg-gray200:focus {
     -ms-flex-item-align: stretch !important;
         align-self: stretch !important; } }
 
-@media (min-width : 1062px ){
+@media (min-width : 1209px ){
   /* line 11, node_modules/bootstrap/scss/utilities/_flex.scss */
   .flex-xl-row {
     -webkit-box-orient: horizontal !important;
@@ -8292,7 +8292,7 @@ button.bg-gray200:focus {
   .float-lg-none {
     float: none !important; } }
 
-@media (min-width : 1062px ){
+@media (min-width : 1209px ){
   /* line 5, node_modules/bootstrap/scss/utilities/_float.scss */
   .float-xl-left {
     float: left !important; }
@@ -10305,7 +10305,7 @@ button.bg-gray200:focus {
   .mx-lg-auto {
     margin-left: auto !important; } }
 
-@media (min-width : 1062px ){
+@media (min-width : 1209px ){
   /* line 12, node_modules/bootstrap/scss/utilities/_spacing.scss */
   .m-xl-0 {
     margin: 0 !important; }
@@ -10807,7 +10807,7 @@ button.bg-gray200:focus {
   .text-lg-center {
     text-align: center !important; } }
 
-@media (min-width : 1062px ){
+@media (min-width : 1209px ){
   /* line 21, node_modules/bootstrap/scss/utilities/_text.scss */
   .text-xl-left {
     text-align: left !important; }
